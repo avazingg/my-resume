@@ -1,0 +1,48 @@
+.portfolio__wrapper {
+  //background: linear-gradient($color-panton-blue, $color-primary );
+  padding: 40px 0;
+}
+
+.portfolio__title-text {
+  color: $color-light-s;
+}
+
+.portfolio__title {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow__right_img,
+.arrow__left_img {
+  background-color: $color-light-s;
+  padding: 8px 5px;
+  border-radius: 100px;
+  width: 45px;
+  height: 40px;
+  border: 2px solid $color-panton-blue;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $color-panton-blue;
+    background-color: $color-light-blue;
+    transition: ease-in 0.3s;
+  }
+}
+
+.carousel__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+}
+
+.portfolio__project {
+  padding: 10px;
+  background-color: $color-light-s;
+  width: 250px;
+}
+
+.portfolio__project_name {
+  background-color: $color-panton-blue;
+  padding: 5px;
+}

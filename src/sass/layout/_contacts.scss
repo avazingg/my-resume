@@ -1,0 +1,43 @@
+.contacts__wrapper {
+  // background: linear-gradient($color-primary, $color-panton-blue );
+  padding: 40px 0;
+}
+
+.contacts__title {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__title-text {
+  color: $color-light-s;
+}
+
+.contacts__promo {
+  color: $color-light-s;
+  padding-left: 160px;
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.conacts__logo {
+  max-width: 60px;
+}
+
+.contacts__list {
+  padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: $color-panton-blue;
+}
+
+.contacts__list_link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contacts__link,
+.contacts__link:visited {
+  color: $color-light-s;
+}

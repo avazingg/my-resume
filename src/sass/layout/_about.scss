@@ -1,0 +1,53 @@
+.about__wrapper {
+  display: flex;
+  justify-content: start;
+  gap: 20rem;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.about__container {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-panton-blue;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.about__image {
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.about__content {
+  max-width: 1000px;
+  color: $color-light-s;
+}
+
+.about__container_promo {
+  color: $color-light-s;
+}
+
+.about__container_info {
+  background: $color-light-s;
+  color: $color-panton-blue;
+  padding: 10px;
+}
+
+.about__content_greet {
+  background: $color-light-s;
+  padding: 10px;
+  max-width: fit-content;
+  margin: 0px;
+}
+
+.about__content_info {
+  margin: 40px 0;
+}
+
+.about__content_skills {
+  margin-bottom: 40px;
+}
