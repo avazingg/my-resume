@@ -1,0 +1,52 @@
+.header {
+  // position: sticky;
+  // top: 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  //border: 2px solid black;
+  //position: sticky;
+  //top: 0;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0px;
+  padding-left: 80px;
+
+}
+
+.promo__text {
+  color: $color-panton-blue;
+  //-webkit-text-stroke: 2px rgb(0, 24, 65);
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: end;
+}
+
+.navigation__link {
+  list-style: none;
+  margin-right: 30px;
+  font-family: "Poppins", sans-serif;
+  //color: rgb(0, 71, 187); //blue color
+  color: $color-light-s;
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 0.06em;
+  line-height: 3.5rem;
+  cursor: pointer;
+}
+
+.navigation>.navigation__link:last-child {
+
+  margin-right: 80px;
+}

@@ -1,0 +1,31 @@
+.info__wrapper {
+  padding: 50px 0;
+  background-color: $color-panton-blue;
+}
+
+.info__title {
+  display: flex;
+  justify-content: center;
+}
+
+.info__title-text {
+  color: $color-primary;
+}
+
+.info__container {
+  padding: 0 160px;
+  text-indent: 30px;
+  //max-width: 1800px;
+}
+
+.info-text {
+  color: $color-light-s;
+}
+
+.info__list {
+  color: $color-light-s;
+  font-size: 2.4rem;
+  // /max-width: 1400px;
+  text-indent: 30px;
+
+}

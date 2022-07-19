@@ -1,0 +1,90 @@
+.education__wrapper {
+  padding: 50px 0;
+  background: to bottom right, ;
+}
+
+.education__title {
+
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+}
+
+.education__title-text {
+  font-size: 4.2rem;
+  margin: 0;
+  padding-bottom: 40px;
+  color: $color-light-s;
+}
+
+.logo-brsu {
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 10px;
+
+}
+
+.logo-rs {
+  max-width: 200px;
+  max-height: 200px;
+  padding-top: 10px;
+  border-radius: 100px;
+
+}
+
+.education__place_logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-light-s;
+  border-radius: 100px;
+
+}
+
+.layout-2-column {
+  display: flex;
+  justify-content: start;
+
+}
+
+.layout-2-column:last-child {
+  gap: 80px;
+
+}
+
+.education__place {
+  max-width: 700px;
+  text-align: center;
+  padding: 10px;
+  background-color: $color-panton-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education__place_name {
+  max-width: 200px;
+  color: $color-light-s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.education__place_faculty {
+  max-width: 150px;
+  color: $color-light-s;
+  font-size: 2.2rem;
+}
+
+.education__place_years {
+  margin-left: 15px;
+  color: $color-light-s;
+}
+
+.education__place:first-child {
+  margin-left: 80px;
+}
