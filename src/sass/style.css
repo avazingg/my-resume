@@ -97,6 +97,10 @@ ul {
   text-align: center;
   gap: 0px;
   padding-left: 80px;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-name: loading;
 }
 
 .promo__text {
@@ -124,6 +128,34 @@ ul {
   margin-right: 80px;
 }
 
+@keyframes loading {
+  0% {
+    opacity: 0.9;
+  }
+  33% {
+    opacity: 0.7;
+  }
+  66% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    opacity: 0.9;
+  }
+  33% {
+    opacity: 0.7;
+  }
+  66% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
 .about__wrapper {
   display: flex;
   justify-content: start;

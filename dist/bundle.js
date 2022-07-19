@@ -1,0 +1,1 @@
+(()=>{window.onload=function(){console.log("Hello woreld!"),o()};const o=()=>{document.querySelector(".carousel__container").addEventListener("click",(o=>{console.log(o),console.log("dude")}))}})();
