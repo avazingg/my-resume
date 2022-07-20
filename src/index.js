@@ -1,4 +1,8 @@
 
+import './js/console';
+import './js/other'
+
+
 window.onload = function () {
   console.log('Hello woreld!')
   addTagsClickHandler();
